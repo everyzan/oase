@@ -1,0 +1,65 @@
+body{
+	font-family: sans-serif;
+	background-image: url(asset/bg_home.png);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 100%;
+}
+ 
+.judul_home{
+    padding-top: 120px;
+}
+h1{
+	text-align: center;
+	font-weight: 300;
+    color: #d9ebe9;
+}
+
+.deskripsi_home{
+    text-align: center;
+    font-size: 16pt;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #d9ebe9;
+}
+ 
+.btn {
+    text-align: center;
+    margin: 100px auto;
+    width: 170px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #d9ebe9;
+    border-radius: 10px;
+    color: #d9ebe9;
+    cursor: pointer;
+    display:grid;
+    font-size: 11pt;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #44535e;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #d9ebe9 inset;
+  }
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
